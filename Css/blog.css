@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #0a2540;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo span {
+  margin-left: 8px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0a2540;
+}
+
+.login-btn {
+  padding: 8px 16px;
+  border: 1px solid #0a2540;
+  background: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.login-btn:hover  {
+  background-color: #0a2540;
+  color: white;
+  border: none;
+  transition: background-color 0.9s ease, color 0.9s ease;
+}
+
+.content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.blog-label {
+  color: #3f5368;
+  font-size: 14px;
+}
+
+.main-title {
+  font-size: 36px;
+  margin: 10px 0 40px;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: auto;
+}
+
+.post-img {
+  width: 500px;
+  height: 290px;
+  border-radius: 24px;
+}
+
+.post-text {
+  text-align: left;
+  max-width: 600px;
+}
+
+.category {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.date {
+  font-weight: normal;
+  color: gray;
+  margin-left: 10px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.author1 img {
+  color: #555;
+}
+
+.latest-news {
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.latest-news h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card img {
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.news-card .category {
+  font-size: 14px;
+  color: #0a2540;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.news-card .date {
+  font-weight: normal;
+  color: gray;
+  margin-left: 10px;
+}
+
+.news-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.news-card .author {
+  color: #555;
+}
+
+.cta-section {
+  background-color: #0a2c49;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.cta-section {
+  margin-left: 210px;
+}
+
+
+.cta-text {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.email-form input[type="email"] {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.email-form button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: #64edac;
+  color: #0a2c49;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.load-more {
+  margin: 40px 0;
+  padding: 10px 20px;
+  border: 2px solid #0a2c49;
+  border-radius: 25px;
+  background-color: white;
+  color: #0a2c49;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.load-more {
+  margin-left: 550px;
+}
+
+.load-more:hover {
+  background-color: #0a2c49;
+  color: white;
+  border: none;
+  transition: background-color 0.9s ease, color 0.9s ease;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-section {
+  max-width: 200px;
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+
+}
+
+.logo-section .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0A2640;
+  margin-bottom: 10px;
+}
+
+.footer-section h4 {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.hiring {
+  background-color: #65E4A3;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #777777;
+}
